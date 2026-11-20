@@ -1,34 +1,213 @@
-
-<!DOCTYPE html>
+<!doctype html>
 
 <!-- Web Language -->
 
 <html lang="en">
+  <!-- Tab Properties -->
 
-<!-- Tab Properties -->
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes</title>
-</head>
+  </head>
 
-<!-- Body -->
+  <!-- Body -->
 
-<body>
+  <body>
+    <!-- Main Header -->
 
-<!-- Main Header -->
+    <header>
+      <h1>Odin Recipes</h1>
+      <p>Discover delicious recipes you can prepare at home.</p>
+    </header>
 
-    <h1>Odin Recipes</h1>
+    <!-- Navigation -->
 
-<!-- Recipe List -->
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes/lasagna.html">Lasagna</a></li>
+        <li><a href="recipes/chicken_adobo.html">Chicken Adobo</a></li>
+        <li><a href="recipes/beef_steak.html">Beef Steak</a></li>
+      </ul>
+    </nav>
 
-<ul>
-    <li><a href="recipes/lasagna.html">Lasagna</a></li>
-    <li><a href="recipes/chicken_adobo.html">Chicken Adobo</a></li>
-    <li><a href="recipes/beef_steak.html">Beef Steak</a></li>
-</ul>
+    <!-- Recipe Section -->
 
-</body>
+    <main>
+      <!-- Section Header -->
 
+      <section>
+        <h2>Our Recipes</h2>
+        <p>
+          Explore our selection of homemade recipes and find something delicious
+          to cook today.
+        </p>
+
+        <!-- Recipe List -->
+
+        <ul>
+          <li><a href="recipes/lasagna.html">Lasagna</a></li>
+          <li><a href="recipes/chicken_adobo.html">Chicken Adobo</a></li>
+          <li><a href="recipes/beef_steak.html">Beef Steak</a></li>
+        </ul>
+
+        <!-- Recipe Comparison Table -->
+
+        <h3>Recipe Comparison</h3>
+
+        <table>
+          <!-- Table Header -->
+
+          <thead>
+            <tr>
+              <th scope="col">Recipe</th>
+              <th scope="col">Main Ingredient</th>
+              <th scope="col">Cooking Method</th>
+              <th scope="col">Estimated Cooking Time</th>
+            </tr>
+          </thead>
+
+          <!-- Table Body -->
+
+          <tbody>
+            <tr>
+              <td>Lasagna</td>
+              <td>Ground Beef</td>
+              <td>Baking</td>
+              <td>1 hour</td>
+            </tr>
+
+            <tr>
+              <td>Chicken Adobo</td>
+              <td>Chicken</td>
+              <td>Simmering</td>
+              <td>40 minutes</td>
+            </tr>
+
+            <tr>
+              <td>Beef Steak</td>
+              <td>Beef</td>
+              <td>Pan-frying</td>
+              <td>15 minutes</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Feedback Form -->
+
+      <section>
+        <!-- Section Header -->
+
+        <h2>Recipe Feedback</h2>
+
+        <p>Share your thoughts about our recipes.</p>
+
+        <!-- Form -->
+
+        <form>
+          <!-- Form Fields -->
+
+          <fieldset>
+            <legend>Feedback Details</legend>
+
+            <!-- Name Field -->
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <!-- Email Field -->
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+
+            <!-- Recipe Selection -->
+
+            <label for="recipe">Recipe:</label>
+
+            <select id="recipe" name="recipe" required>
+              <option value="">Choose a recipe</option>
+              <option value="lasagna">Lasagna</option>
+              <option value="chicken_adobo">Chicken Adobo</option>
+              <option value="beef_steak">Beef Steak</option>
+            </select>
+
+            <!-- Rating -->
+
+            <fieldset>
+              <legend>How would you rate the recipe?</legend>
+
+              <input
+                type="radio"
+                id="rating1"
+                name="rating"
+                value="1"
+                required
+              />
+              <label for="rating1">1</label>
+
+              <input type="radio" id="rating2" name="rating" value="2" />
+              <label for="rating2">2</label>
+
+              <input type="radio" id="rating3" name="rating" value="3" />
+              <label for="rating3">3</label>
+
+              <input type="radio" id="rating4" name="rating" value="4" />
+              <label for="rating4">4</label>
+
+              <input type="radio" id="rating5" name="rating" value="5" />
+              <label for="rating5">5</label>
+            </fieldset>
+
+            <!-- Feedback Message -->
+
+            <label for="feedback">Your Feedback:</label>
+            <textarea
+              id="feedback"
+              name="feedback"
+              rows="5"
+              cols="40"
+              required
+            ></textarea>
+          </fieldset>
+
+          <!-- Submit Button -->
+
+          <button type="submit">Submit Feedback</button>
+        </form>
+      </section>
+
+      <!-- Multimedia Section -->
+
+      <section>
+        <!-- Section Header -->
+
+        <h2>Cooking Tutorial</h2>
+
+        <p>
+          Watch a cooking tutorial and learn more about preparing delicious
+          meals.
+        </p>
+
+        <!-- Embedded Video -->
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/P6W8kwmwcno"
+          title="Cooking Tutorial Video"
+          allowfullscreen
+          loading="lazy"
+        >
+        </iframe>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+      <p>&copy; 2026 Odin Recipes. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
