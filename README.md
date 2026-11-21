@@ -1,6 +1,6 @@
 # Odin Recipes
 
-A simple recipe website built as part of The Odin Project's HTML Foundations curriculum and Practical Exercise 5: HTML Development.
+A simple recipe website built as part of [The Odin Project](https://www.theodinproject.com/)'s HTML Foundations curriculum and **Practical Exercise 5: HTML Development**.
 
 The website features a collection of recipes, recipe comparisons, a feedback form, and embedded cooking multimedia.
 
@@ -30,28 +30,30 @@ Odin Recipes is a basic HTML website designed to demonstrate fundamental web dev
 
 ## Project Structure
 
-    odin_recipes/
-    │
-    ├── index.html
-    ├── README.md
-    │
-    ├── recipes/
-    │   ├── lasagna.html
-    │   ├── chicken_adobo.html
-    │   └── beef_steak.html
-    │
-    └── images/
-        ├── lasagna.png
-        ├── chicken_adobo.png
-        └── beef_steak.png
+```text
+odin_recipes/
+│
+├── index.html
+├── README.md
+│
+├── recipes/
+│   ├── lasagna.html
+│   ├── chicken_adobo.html
+│   └── beef_steak.html
+│
+└── images/
+    ├── lasagna.png
+    ├── chicken_adobo.png
+    └── beef_steak.png
+```
 
 ## Live Website
 
-https://johancurato1-stack.github.io/Odin-Recipes/
+[View Odin Recipes](https://johancurato1-stack.github.io/Odin-Recipes/)
 
 ## Repository
 
-https://github.com/johancurato1-stack/Odin-Recipes
+[GitHub Repository](https://github.com/johancurato1-stack/Odin-Recipes)
 
 ## Purpose
 
